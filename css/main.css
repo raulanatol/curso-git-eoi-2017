@@ -1,0 +1,68 @@
+.two-column-left {
+  float: left;
+  width: 50%;
+}
+
+.two-column-right {
+  float: right;
+  width: 50%;
+}
+
+.reveal section img.simple {
+  margin: 0;
+  background: none;
+  border: 0;
+  box-shadow: none;
+}
+
+.reveal section img.top-right {
+  position: absolute;
+  top: 0;
+  left: 80%;
+}
+
+.back-color-blue {
+  background-color: #146287
+}
+
+.font-white {
+  color: #FFF;
+}
+
+.color-blue {
+  color: #146287;
+}
+
+.color-orange {
+  color: #f99157;
+}
+
+.color-pink {
+  color: #cc99cc;
+}
+
+.color-green {
+  color: #1e5a2e;
+}
+
+.image-medium {
+  width: 50%;
+  height: 50%;
+}
+
+.double-first {
+  margin-top: 20px !important;
+  margin-bottom: 0 !important;
+}
+
+.double {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.reveal .footer {
+  position: absolute;
+  bottom: 1em;
+  left: 1em;
+  font-size: 0.5em;
+}

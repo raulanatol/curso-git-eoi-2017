@@ -1,0 +1,45 @@
+<section>
+  <h2>Configuración</h2>
+  <div style="background-color: rgb(20, 98, 135); width: 70%; height: 400%; position: absolute; top: -100%; left: -45%; z-index: -1;">
+  </div>
+  <div class="fragment">
+    <div style="width: 21%; display: inline-block; margin-right: 5%; vertical-align: top;">
+      <p style="text-align: right;">
+        <b class="font-white">tu identidad</b>
+      </p>
+    </div>
+    <div style="width: 73%; display: inline-block; margin-top: 5px">
+          <pre><code class="hljs" data-trim contenteditable>
+            $ git config --global user.name "John Doe"
+          </code></pre>
+      <pre><code class="hljs" data-trim contenteditable>
+            $ git config --global user.email johndoe@example.com
+          </code></pre>
+    </div>
+  </div>
+  <br/>
+  <div class="fragment">
+    <div style="width: 21%; display: inline-block; margin-right: 5%; vertical-align: top;">
+      <p style="text-align: right;">
+        <b class="font-white">editor</b>
+      </p>
+    </div>
+    <div style="width: 73%; display: inline-block; margin-top: 5px">
+					<pre><code class="hljs" data-trim contenteditable>
+            $ git config --global core.editor emacs
+          </code></pre>
+    </div>
+  </div>
+  <div class="fragment">
+    <div style="width: 21%; display: inline-block; margin-right: 5%; vertical-align: top;">
+      <p style="text-align: right;">
+        <b class="font-white">editor de diferencias</b>
+      </p>
+    </div>
+    <div style="width: 73%; display: inline-block; margin-top: 5px">
+      <pre>
+        <code class="hljs" data-trim contenteditable>$ git config --global merge.tool vimdiff</code>
+      </pre>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,77 @@
+<section>
+  <h2>Stash</h2>
+  <div style="background-color: rgb(20, 98, 135); width: 90%; height: 500%; position: absolute; top: -100%; left: -45%; z-index: -1;">
+  </div>
+  <div class="fragment">
+    <div style="width: 44%; display: inline-block; margin-right: 5%; vertical-align: top;">
+              <pre><code class="hljs" data-trim>
+                $ git stash save [msg]
+              </code></pre>
+    </div>
+    <div style="width: 50%; display: inline-block;">
+      <pre><code>Guardamos los cambios del workspace</code></pre>
+    </div>
+  </div>
+  <div class="fragment">
+    <div style="width: 44%; display: inline-block; margin-right: 5%; vertical-align: top;">
+              <pre><code class="hljs" data-trim>
+                $ git stash list
+              </code></pre>
+    </div>
+    <div style="width: 50%; display: inline-block;">
+      <pre><code>Mostramos los stash creados</code></pre>
+    </div>
+  </div>
+  <div class="fragment">
+    <div style="width: 44%; display: inline-block; margin-right: 5%; vertical-align: top;">
+              <pre><code class="hljs" data-trim>
+                $ git stash show [stash]
+              </code></pre>
+    </div>
+    <div style="width: 50%; display: inline-block;">
+      <pre><code>Mostramos un stash</code></pre>
+    </div>
+  </div>
+  <div class="fragment">
+    <div style="width: 44%; display: inline-block; margin-right: 5%; vertical-align: top;">
+              <pre><code class="hljs" data-trim>
+                $ git stash apply [stash]
+              </code></pre>
+    </div>
+    <div style="width: 50%; display: inline-block;">
+      <pre style="margin-bottom: 0"><code>Aplicamos los cambios desde</code></pre>
+      <pre style="margin-top: 0"><code>un stash (no lo borra)</code></pre>
+    </div>
+  </div>
+  <div class="fragment">
+    <div style="width: 44%; display: inline-block; margin-right: 5%; vertical-align: top;">
+              <pre><code class="hljs" data-trim>
+                $ git stash pop
+              </code></pre>
+    </div>
+    <div style="width: 50%; display: inline-block;">
+      <pre style="margin-bottom: 0"><code>Aplicamos los cambios desde</code></pre>
+      <pre style="margin-top: 0"><code>el primer stash de la lista</code></pre>
+    </div>
+  </div>
+  <div class="fragment">
+    <div style="width: 44%; display: inline-block; margin-right: 5%; vertical-align: top;">
+              <pre><code class="hljs" data-trim>
+                $ git stash drop [stash]
+              </code></pre>
+    </div>
+    <div style="width: 50%; display: inline-block;">
+      <pre><code>Borramos un stash específico</code></pre>
+    </div>
+  </div>
+  <div class="fragment">
+    <div style="width: 44%; display: inline-block; margin-right: 5%; vertical-align: top;">
+              <pre><code class="hljs" data-trim>
+                $ git stash clear
+              </code></pre>
+    </div>
+    <div style="width: 50%; display: inline-block;">
+      <pre><code>Borramos todo el stash</code></pre>
+    </div>
+  </div>
+</section>

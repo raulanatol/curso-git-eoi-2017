@@ -1,0 +1,53 @@
+<section>
+  <h2>Comprobando tu configuración</h2>
+
+  <div style="background-color: rgb(20, 98, 135); width: 80%; height: 400%; position: absolute; top: -100%; left: -45%; z-index: -1;">
+  </div>
+  <div class="fragment">
+    <div style="width: 34%; display: inline-block; margin-right: 5%; vertical-align: top;">
+					  <pre><code class="hljs" data-trim contenteditable>
+              $ git config --list
+            </code></pre>
+    </div>
+    <div style="width: 60%; display: inline-block;">
+					<pre><code class="hljs" data-trim>
+            user.name=Scott Chacon
+          </code></pre>
+      <pre><code class="hljs" data-trim>
+            user.email=schacon@gmail.com
+          </code></pre>
+      <pre><code class="hljs" data-trim>
+            color.status=auto
+          </code></pre>
+      <pre><code class="hljs" data-trim>
+            color.branch=auto
+          </code></pre>
+      <pre><code class="hljs" data-trim>
+            color.interactive=auto
+          </code></pre>
+      <pre><code class="hljs" data-trim>
+            color.diff=auto
+          </code></pre>
+      <pre><code class="hljs" data-trim>
+            ...
+          </code></pre>
+    </div>
+  </div>
+
+  <div class="fragment">
+    <div style="width: 34%; display: inline-block; margin-right: 5%; vertical-align: top;">
+					  <pre><code class="hljs" data-trim contenteditable>
+              $ git config user.name
+            </code></pre>
+      <pre><code class="hljs" data-trim contenteditable>
+              $ git config {clave}
+            </code></pre>
+    </div>
+    <div style="width: 60%; display: inline-block;">
+					<pre><code class="hljs" data-trim contenteditable>
+            Scott Chacon
+          </code></pre>
+
+    </div>
+  </div>
+</section>
