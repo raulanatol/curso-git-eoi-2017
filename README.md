@@ -1,3 +1,3 @@
-# Curso de Git para la ULL (marzo 2017)
+# Curso de introducción a git
 
-Presentación del curso de git de la ULL
+Presentación del curso de introducción a git para la EOI
